@@ -10,7 +10,7 @@ interface InvitationProps {
   location: string;
 }
 
-const GOOGLE_SHEETS_URL = "https://script.google.com/macros/s/AKfycbzVnOFEsU-2SIWL1ZjZ8AU_K0_or3u1D7p1uutGATFO3_Xly0q67bTgl3VQJxWmrQ2D/exec";
+const GOOGLE_SHEETS_URL = "https://script.google.com/macros/s/AKfycbwIiXgG-5JLf4DHj02X4epIUbBT-bvUsW2GQb96Riw9CkTWh96KgFRc2JusLYjB0_yu/exec";
 
 const Invitation: React.FC<InvitationProps> = ({ image, title, description, date, time, location }) => {
   const [confirmed, setConfirmed] = useState(false);
